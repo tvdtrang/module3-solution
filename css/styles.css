@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'comic sans ms', segoe ui, helvetica;
+    font-size: 16px;
+ }
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*SCROLLBAR*/
+body {
+    overflow: scroll;
+}
+
+/*HEADER*/
+.container-fluid {
+    background-color: #3a0b0b;
+}
+
+.container-fluid .navbar-header {
+    width: 100%;
+    padding-left: 15px;
+    background-color: #3a0b0b;
+}
+
+.container-fluid .navbar-header a {
+    color: #ffc2c2;
+    font-size: 1.6em;
+}
+
+.navbar-collapse {
+    background-color: #ffc2c2;
+}
+
+.navbar-nav li {
+    border: 1px black;
+}
+
+.navbar-collapse .navbar-nav>li>a {
+    color: black;
+    text-align: center;
+    display: block;
+}
+.navbar-toggle {
+	margin-right: -15px;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #ffc2c2;
+    background-color: none;
+}
+
+.navbar-header button.navbar-toggle:hover,
+.navbar-header .icon-bar:hover {
+    border: 1px solid black;
+}
+
+#main-content h2 {
+    padding-bottom: 25px;
+}
+
+.row .col-content {
+    margin-bottom: 25px;
+}
+
+.row .col-content a {
+    text-decoration: none;
+}
+
+.row section {
+    color: black;
+    padding: 0 15px 15px;
+}
+
+.row #section-1 {
+    background-color: #f5ff71;
+}
+
+.row #section-2 {
+    background-color: #ffc2c2;
+}
+
+
+.row #section-3 {
+    background-color: #a9ffe0;
+}
+
+.row .section-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+/*--DESKTOP ONLY -md --*/
+/*@media (min-width: 1200px) {*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+/*--TABLET ONLY -sm --*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/*--MOBILE ONLY -xs --*/
+@media (max-width: 767px) {
+
+}
